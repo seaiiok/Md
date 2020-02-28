@@ -12,7 +12,7 @@ protoc-gen-tier - generate code.
 增加option来增强对接口的说明，这对后面的接口文档和postman文档生成都有很大的帮助。
 
 如下：
-
+```proto
 // 获取参与节点信息 (2.13)
 rpc GetParticipantNodeInfoById(kuaicuocuo.com.apis.ssi.fe.v1.common.FENodeId) returns (FERespParticipantNodeInfo){
     //该方法全局唯一的名字，暂定: 服务名/方法名 (service name/method name)
@@ -32,12 +32,14 @@ rpc GetParticipantNodeInfoById(kuaicuocuo.com.apis.ssi.fe.v1.common.FENodeId) re
     //      category_name:"治理组织"
     //}
 };
+```
 
 2.manifest--generate code
 使用：protoc-gen-tier
 服务代码的生成和Postman文档的生成。
 
 如下：
+```proto
 option (kuaicuocuo.com.api.app).manifest = {
         modules:{key:"fe_operator",value:{
               //服务名 server name
@@ -48,12 +50,14 @@ option (kuaicuocuo.com.api.app).manifest = {
               dependent_modules:["operator"]
         }}
 }
+```
 
 3.manifest--generate doc
 使用：protoc-gen-ui-doc
 用于描述UI与接口业务关系的文档，明确指指定UI图片对应的接口列表。
 
 如下：
+```proto
 option (kuaicuocuo.com.api.doc).doc = {
        uis:{key:"ui001",value:{
               name:"创建联盟"
@@ -63,7 +67,7 @@ option (kuaicuocuo.com.api.doc).doc = {
               urls:["FEGovernanFEGceOrgService/GetParticipantNodeInfoById"]
         }}
 }
-
+```
 
 //TODO 后期完善使用文档
 //TODO 终端动画教程
