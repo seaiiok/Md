@@ -47,7 +47,7 @@ FEGovernancePanelService-ListAllConsistencePolicys
 
 ## ui002 - 创建成功
 
-![](2020-02-05/0ccd0adec635ff0560c5d199a1fdfc37.png)
+![](./2020-02-05/0ccd0adec635ff0560c5d199a1fdfc37.png)
 
 
 
