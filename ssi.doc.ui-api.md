@@ -11,7 +11,7 @@ HostName: 192.168.1.6:8080
 
 ## ui001 - 创建联盟
 
-![](0dc106fe111d2aaee0724db6ae66669b.png)
+![](/0dc106fe111d2aaee0724db6ae66669b.png)
 
 
 FEGovernancePanelService-CreateGovernancePanel
@@ -47,13 +47,13 @@ FEGovernancePanelService-ListAllConsistencePolicys
 
 ## ui002 - 创建成功
 
-![](0facbf9f4c0b541622a865b81f1f8073.png)
+![](0dc106fe111d2aaee0724db6ae66669b.png)
 
 
 
 ## ui003 - 登录
 
-![](d021f20d33c553d79be9bee331d59118.png)
+![](0dc106fe111d2aaee0724db6ae66669b.png)
 
 
 FEOperatorService-OperatorLogin
