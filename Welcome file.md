@@ -4,13 +4,12 @@
 3.daemon对用户提供接口---0.5天    
 4.实现接口---3天     
 
-~~strikethrough text~~
 #### cil
 1.命令行的设计---1天    
 2.对接接口---3天    
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NjMxNzc5NiwtMjMzNzkxNDI2LC0zMz
-I0NTUzNjNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTk2ODk5MDQsLTIzMzc5MTQyNiwtMz
+MyNDU1MzYzXX0=
 -->
